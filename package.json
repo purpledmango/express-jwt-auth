@@ -1,0 +1,28 @@
+{
+  "name": "express-jwt-auth",
+  "version": "1.0.0",
+  "description": "The express-jwt-auth is a broiler plate template to reduce time in implementing authentication from stractch and help you write code rapidly in express.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "express.js",
+    "backend",
+    "nodejs",
+    "nodemon",
+    "REST",
+    "api",
+    "expressapi",
+    "mernstack"
+  ],
+  "author": "purpledmango (Nitish)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  }
+}
