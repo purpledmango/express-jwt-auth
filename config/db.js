@@ -2,7 +2,9 @@ import mongoose from "mongoose";
 
 const connectToDB = (URI) => {
     try {
-        mongoose.connect(URI);
+        mongoose.connect(URI,{
+            
+        });
         const db = mongoose.connection;
         db.once('open', () => {
             console.log('DB: UP');
